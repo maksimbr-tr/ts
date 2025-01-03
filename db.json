@@ -1,0 +1,126 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "department": "Engineering Lead",
+      "status": "ACTIVE",
+      "email": "john.doe@32.com",
+      "equipments": [
+        {
+          "id": "eq123124",
+          "name": "MacBook Pro"
+        },
+        {
+          "id": "eq12423",
+          "name": "Magic Mouse"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "department": "Marketing",
+      "status": "ACTIVE",
+      "email": "jane.smith@32.com",
+      "equipments": [
+        {
+          "id": "eq223124",
+          "name": "Dell XPS 13"
+        },
+        {
+          "id": "eq22423",
+          "name": "Logitech Keyboard"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Alice Johnson",
+      "department": "Sales",
+      "status": "ACTIVE",
+      "email": "alice.johnson@32.com",
+      "equipments": [
+        {
+          "id": "eq323124",
+          "name": "HP Spectre x360"
+        },
+        {
+          "id": "eq32423",
+          "name": "Microsoft Surface Mouse"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Bob Brown",
+      "department": "Human Resources",
+      "status": "ACTIVE",
+      "email": "bob.brown@32.com",
+      "equipments": [
+        {
+          "id": "eq423124",
+          "name": "Lenovo ThinkPad"
+        },
+        {
+          "id": "eq42423",
+          "name": "Dell Mouse"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Charlie Davis",
+      "department": "Finance",
+      "status": "ACTIVE",
+      "email": "charlie.davis@32.com",
+      "equipments": [
+        {
+          "id": "eq523124",
+          "name": "Asus ZenBook"
+        },
+        {
+          "id": "eq52423",
+          "name": "HP Mouse"
+        }
+      ]
+    }
+  ],
+  "offboard": [
+    {
+      "id": "1",
+      "status": "OFFBOARDED"
+    },
+    {
+      "id": "2",
+      "status": "OFFBOARDED"
+    },
+    {
+      "id": "3",
+      "status": "OFFBOARDED"
+    },
+    {
+      "id": "4",
+      "status": "OFFBOARDED"
+    },
+    {
+      "id": "5",
+      "status": "OFFBOARDED"
+    },
+    {
+      "id": "4"
+    },
+    {
+      "id": "2"
+    },
+    {
+      "id": "4"
+    },
+    {
+      "id": "4"
+    },
+    {
+      "id": "1"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+.employee-details-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .employee-card {
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  mat-card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  mat-card-subtitle {
+    font-size: 16px;
+    color: gray;
+  }
+  
+  mat-card-content p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: space-between;
+  }
