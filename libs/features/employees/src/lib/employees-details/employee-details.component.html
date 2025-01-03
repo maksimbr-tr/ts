@@ -17,7 +17,9 @@
             </table>
         </mat-card-content>
         <mat-card-actions>
+            @if(employee.equipments) {
             <button mat-raised-button color="primary" (click)="openOffboardingForm(employee)">Offboard</button>
+            }
             <button mat-raised-button color="accent" (click)="navigateBack()">Back to Main Page</button>
         </mat-card-actions>
     </mat-card>
