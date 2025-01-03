@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "npm start:mock && nx serve",
+    "start": "nx serve",
     "build": "nx build",
     "test": "nx run-many --target=test --all",
     "start:mock": "json-server --watch db.json --port 3200",

@@ -16,6 +16,7 @@
 To run the dev server for your app, use:
 
 ```sh
+npm run start:mock
 npx nx serve employee-offboarding
 ```
 
