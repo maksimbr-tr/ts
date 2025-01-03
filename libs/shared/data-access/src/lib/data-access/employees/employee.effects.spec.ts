@@ -47,7 +47,7 @@ describe('EmployeeEffects', () => {
 
   it('should offboard employee', (done) => {
     const employee = mockEmployees[0];
-    const offboardedEmployee: Employee = { ...employee, status: 'OFFBOARDED' as 'OFFBOARDED' };
+    const offboardedEmployee: Employee = { ...employee, status: 'OFFBOARDED'};
     actions$ = of(offboardEmployee({ id: employee.id, request: { address: { streetLine1: '', country: '', postalCode: '', receiver: '' }, notes: '', phone: '', email: '' }, employee }));
 
     TestBed.runInInjectionContext(() => {
