@@ -1,7 +1,10 @@
 import { Route } from '@angular/router';
-import { EmployeesComponent, EmployeeDetailsComponent } from '@employee-offboarding/employees'
 
 export const appRoutes: Route[] = [
-    { path: '', component: EmployeesComponent },
-    { path: 'employee/:id', component: EmployeeDetailsComponent }
+    { path: '', loadComponent: () => 
+        import('@employee-offboarding/employees')
+            .then(m => m.EmployeesComponent) },
+    { path: 'employee/:id', loadComponent: () => 
+        import('@employee-offboarding/employees')
+            .then(m => m.EmployeeDetailsComponent) }
 ];

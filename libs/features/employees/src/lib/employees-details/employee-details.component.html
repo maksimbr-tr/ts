@@ -6,7 +6,8 @@
         </mat-card-header>
         <mat-card-content>
             <p>Email: {{ employee.email }}</p>
-            <h3>Equipments</h3>
+            <h3>Equipments on user: {{employee.equipments.length}}</h3>
+            @if(employee.equipments.length) {
             <table mat-table [dataSource]="employee.equipments" class="mat-elevation-z8">
                 <ng-container matColumnDef="name">
                     <th mat-header-cell *matHeaderCellDef> Equipment </th>
@@ -15,9 +16,10 @@
                 <tr mat-header-row *matHeaderRowDef="['name']"></tr>
                 <tr mat-row *matRowDef="let row; columns: ['name'];"></tr>
             </table>
+            }
         </mat-card-content>
         <mat-card-actions>
-            @if(employee.equipments) {
+            @if(employee.equipments.length) {
             <button mat-raised-button color="primary" (click)="openOffboardingForm(employee)">Offboard</button>
             }
             <button mat-raised-button color="accent" (click)="navigateBack()">Back to Main Page</button>
